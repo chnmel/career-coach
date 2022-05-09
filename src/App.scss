@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+$white: #f7f0f0;
+$green: #66bb63;
+$yellow: #f2bb05;
+$darkgrey: #484349;
+$lightgrey: #c4c4c4;
+$logo-font: "Pacifico", "Times New Roman";
+$text-font: "Lato", "Arial";
+$logo-font-color: white;
+$logo-font-size: 1.5rem;
+
+body {
+  background-color: $white;
+  font-family: $text-font;
+  position: relative; 
+  min-height: 100%;
+  padding-bottom: 6rem;
+}

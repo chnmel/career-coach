@@ -1,0 +1,16 @@
+@import "../../../App.scss";
+
+.container {
+  padding: 0.2rem 2rem;
+  background-color: $green;
+  width: 100%;
+}
+
+.logo {
+  font-size: $logo-font-size;
+  color: $logo-font-color;
+  font-family: $logo-font;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
