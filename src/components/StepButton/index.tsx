@@ -5,7 +5,7 @@ import colors from '../../theme/colors';
 type StepButtonProps = {
     size: number,
     title: string,
-    buttonType: 'inactive' | 'active' | 'done',
+    buttonType: string, //'inactive' | 'active' | 'done',
     iconSrcActive: string,
     iconSrcInactive: string,
 }
