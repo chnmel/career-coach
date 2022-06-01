@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div>
           <button className={styles.btn}>
-            <img src={home} alt="home"  className={styles.btnImg} onClick={navigateToHome} />
+            <img src={home} alt="home" className={styles.btnImg} onClick={navigateToHome} />
           </button>
         </div>
       </div>

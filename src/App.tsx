@@ -4,14 +4,15 @@ import './App.scss';
 
 import Header from './components/navigation/Header/Header';
 import Footer from './components/navigation/Footer/Footer';
+import HomeScreen from './screens/HomeScreen/HomeScreen';
 import ProfessionalFields from './screens/ProfessionalFields/ProfessionalFields';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <ProfessionalFields />
-      
+        <HomeScreen />
+        {/* <ProfessionalFields /> */}
       <Footer />
     </div>
   );
