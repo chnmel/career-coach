@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import StepButton from "../../components/StepButton";
 import styles from "./HomeScreen.module.scss";
 import Grid from "@mui/material/Grid";
@@ -7,6 +8,10 @@ import { useMediaQuery } from "react-responsive";
 
 import iconCVActive from "../../assets/btn_CV_active.png";
 import iconCVInactive from "../../assets/btn_CV_inactive.png";
+import iconProfFieldsActive from "../../assets/btn_ProfessionalFields_active.png";
+import iconProfFieldsInactive from "../../assets/btn_ProfessionalFields_inactive.png";
+import iconTestActive from "../../assets/btn_Test_active.png";
+import iconTestInactive from "../../assets/btn_Test_inactive.png";
 
 const listSteps = [
   {
@@ -92,7 +97,7 @@ const HomeScreen = () => {
           <Paper className={styles.containerButton} elevation={0}>
             <StepButton
               size={returnStepbuttonSize()}
-              title="Lerne dich kennen"
+              title="Schule | Lehre | Freizeit"
               iconSrcActive={iconCVActive}
               iconSrcInactive={iconCVInactive}
               buttonType="active"
@@ -104,7 +109,7 @@ const HomeScreen = () => {
           <Paper className={styles.containerButton} elevation={0}>
             <StepButton
               size={returnStepbuttonSize()}
-              title="Lerne dich kennen"
+              title="Bewerbungsunterlagen"
               iconSrcActive={iconCVActive}
               iconSrcInactive={iconCVInactive}
               buttonType="inactive"
@@ -134,13 +139,15 @@ const HomeScreen = () => {
             id={styles.startButton}
             elevation={0}
           >
-            <StepButton
-              size={returnStepbuttonSize()}
-              title="Lerne dich kennen"
-              iconSrcActive={iconCVActive}
-              iconSrcInactive={iconCVInactive}
-              buttonType="done"
-            />
+            <Link to='Berufsfeld'>
+              <StepButton
+                size={returnStepbuttonSize()}
+                title="Dein Berufsfeld"
+                iconSrcActive={iconProfFieldsActive}
+                iconSrcInactive={iconProfFieldsInactive}
+                buttonType="done"
+              />
+            </Link>
           </Paper>
           <div className={styles.containerLine}>
             <hr className={`${styles.vertLine} ${styles.dashed}`}></hr>
@@ -148,7 +155,7 @@ const HomeScreen = () => {
           <Paper className={styles.containerButton} elevation={0}>
             <StepButton
               size={returnStepbuttonSize()}
-              title="Lerne dich kennen"
+              title="Dein Ausbildungsplatz"
               iconSrcActive={iconCVActive}
               iconSrcInactive={iconCVInactive}
               buttonType="done"
@@ -158,13 +165,15 @@ const HomeScreen = () => {
             <hr className={`${styles.vertLine} ${styles.dashed}`} style={{borderColor:  "white"}}></hr>
           </div>
           <Paper className={styles.containerButton} elevation={0}>
-            <StepButton
-              size={returnStepbuttonSize()}
-              title="Lerne dich kennen"
-              iconSrcActive={iconCVActive}
-              iconSrcInactive={iconCVInactive}
-              buttonType="inactive"
-            />
+            <Link to='Aufnahmetest'>
+              <StepButton
+                size={returnStepbuttonSize()}
+                title="Aufnahmetest"
+                iconSrcActive={iconTestActive}
+                iconSrcInactive={iconTestInactive}
+                buttonType="done"
+              />
+            </Link>
           </Paper>
         </Grid>
       </Grid>

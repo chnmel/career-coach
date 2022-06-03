@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.scss'
 import settings from '../../../assets/settings.png';
 import home from '../../../assets/home.png';
@@ -19,11 +20,11 @@ const Footer = () => {
             <img src={settings} alt="settings" className={styles.btnImg} onClick={showSettings} />
           </button>
         </div>
-        <div>
+        <Link  to='/'>
           <button className={styles.btn}>
             <img src={home} alt="home" className={styles.btnImg} onClick={navigateToHome} />
           </button>
-        </div>
+        </Link>
       </div>
     </div>
   );
