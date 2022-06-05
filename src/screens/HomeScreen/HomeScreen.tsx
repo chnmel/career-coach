@@ -12,46 +12,70 @@ import iconProfFieldsActive from "../../assets/btn_ProfessionalFields_active.png
 import iconProfFieldsInactive from "../../assets/btn_ProfessionalFields_inactive.png";
 import iconTestActive from "../../assets/btn_Test_active.png";
 import iconTestInactive from "../../assets/btn_Test_inactive.png";
+import iconEducationTypeActive from "../../assets/btn_EducationType_active.png";
+import iconEducationTypeInactive from "../../assets/btn_EducationType_inactive.png";
 
-const listSteps = [
+const listStepsLeft = [
   {
     id: 0,
     iconSrcActive: iconCVActive,
     iconSrcInactive: iconCVInactive,
     title: "Lerne Dich kennen",
-    status: "inactive",
+    buttonType: "done",
+    screenLink: "",
+    vlineBottom: "none",
   },
   {
     id: 1,
-    iconSrcActive: iconCVActive,
-    iconSrcInactive: iconCVInactive,
-    title: "Lerne Dich kennen",
-    status: "active",
+    iconSrcActive: iconEducationTypeActive,
+    iconSrcInactive: iconEducationTypeInactive,
+    title: "Lehre oder Schule",
+    buttonType: "active",
+    screenLink: "LehreOderSchule",
+    vlineBottom: "dashed",
   },
   {
     id: 2,
     iconSrcActive: iconCVActive,
     iconSrcInactive: iconCVInactive,
     title: "Lerne Dich kennen",
-    status: "done",
+    buttonType: "inactive",
+    screenLink: "",
+    vlineBottom: "none",
+  },
+];
+
+const listStepsRight = [
+  {
+    id: 0,
+    iconSrcActive: iconProfFieldsActive,
+    iconSrcInactive: iconProfFieldsInactive,
+    title: "Dein Berufsfeld",
+    buttonType: "done",
+    screenLink: "Berufsfeld",
+    vlineBottom: "dashed",
+  },
+  {
+    id: 1,
+    iconSrcActive: iconCVActive,
+    iconSrcInactive: iconCVInactive,
+    title: "Dein Ausbildungsplatz",
+    buttonType: "inactive",
+    screenLink: "",
+    vlineBottom: "none",
+  },
+  {
+    id: 2,
+    iconSrcActive: iconTestActive,
+    iconSrcInactive: iconTestInactive,
+    title: "Aufnahmetest",
+    buttonType: "inactive",
+    screenLink: "Aufnahmetest",
+    vlineBottom: "none",
   },
 ];
 
 const HomeScreen = () => {
-  const stepsView = listSteps.map((item) => (
-    // <p>{item.id}</p>
-    <StepButton
-      size={200}
-      title={item.title}
-      iconSrcActive={item.iconSrcActive}
-      iconSrcInactive={item.iconSrcInactive}
-      buttonType={item.status}
-    />
-  ));
-
-  //   return <div className={styles.container}>
-  //       {stepsView}
-  //     </div>;
 
   // Media Queries
   const phone = useMediaQuery({ query: "(max-width: 767px)" });
@@ -79,42 +103,25 @@ const HomeScreen = () => {
 
         {/* Left section */}
         <Grid item xs={3} className={styles.columnLeft}>
-          <Paper className={styles.containerButton} elevation={0} square>
-            <StepButton
-              size={returnStepbuttonSize()}
-              title="Lerne dich kennen"
-              iconSrcActive={iconCVActive}
-              iconSrcInactive={iconCVInactive}
-              buttonType="done"
-            />
-          </Paper>
-          <div className={styles.containerLine}>
-            <hr
-              className={styles.vertLine}
-              style={{ borderColor: "white" }}
-            ></hr>
-          </div>
-          <Paper className={styles.containerButton} elevation={0}>
-            <StepButton
-              size={returnStepbuttonSize()}
-              title="Schule | Lehre | Freizeit"
-              iconSrcActive={iconCVActive}
-              iconSrcInactive={iconCVInactive}
-              buttonType="active"
-            />
-          </Paper>
-          <div className={styles.containerLine}>
-            <hr className={styles.vertLine}></hr>
-          </div>
-          <Paper className={styles.containerButton} elevation={0}>
-            <StepButton
-              size={returnStepbuttonSize()}
-              title="Bewerbungsunterlagen"
-              iconSrcActive={iconCVActive}
-              iconSrcInactive={iconCVInactive}
-              buttonType="inactive"
-            />
-          </Paper>
+          { listStepsLeft.map((item) => (
+            <Link to={item.screenLink}>
+              <Paper className={styles.containerButton} elevation={0}>
+                <StepButton
+                  size={returnStepbuttonSize()}
+                  title={item.title}
+                  iconSrcActive={item.iconSrcActive}
+                  iconSrcInactive={item.iconSrcInactive}
+                  buttonType={item.buttonType}
+                />
+              </Paper>
+              <div className={styles.containerLine}>
+                <hr
+                  className={`${styles.vertLine} ${item.vlineBottom === 'dashed' ? styles.dashed : ''}`}
+                  style={{ borderColor: item.vlineBottom === 'none' ? 'white' : 'black' }}
+                ></hr>
+              </div>
+            </Link>
+          )) }
         </Grid>
 
         {/* Middle section */}
@@ -134,47 +141,25 @@ const HomeScreen = () => {
 
         {/* Right section */}
         <Grid item xs={3} className={styles.columnRight}>
-          <Paper
-            className={styles.containerButton}
-            id={styles.startButton}
-            elevation={0}
-          >
-            <Link to='Berufsfeld'>
-              <StepButton
-                size={returnStepbuttonSize()}
-                title="Dein Berufsfeld"
-                iconSrcActive={iconProfFieldsActive}
-                iconSrcInactive={iconProfFieldsInactive}
-                buttonType="done"
-              />
+          { listStepsRight.map((item) => (
+            <Link to={item.screenLink}>
+              <Paper className={styles.containerButton} elevation={0}>
+                <StepButton
+                  size={returnStepbuttonSize()}
+                  title={item.title}
+                  iconSrcActive={item.iconSrcActive}
+                  iconSrcInactive={item.iconSrcInactive}
+                  buttonType={item.buttonType}
+                />
+              </Paper>
+              <div className={styles.containerLine}>
+                <hr
+                  className={`${styles.vertLine} ${item.vlineBottom === 'dashed' ? styles.dashed : ''}`}
+                  style={{ borderColor: item.vlineBottom === 'none' ? 'white' : 'black' }}
+                ></hr>
+              </div>
             </Link>
-          </Paper>
-          <div className={styles.containerLine}>
-            <hr className={`${styles.vertLine} ${styles.dashed}`}></hr>
-          </div>
-          <Paper className={styles.containerButton} elevation={0}>
-            <StepButton
-              size={returnStepbuttonSize()}
-              title="Dein Ausbildungsplatz"
-              iconSrcActive={iconCVActive}
-              iconSrcInactive={iconCVInactive}
-              buttonType="done"
-            />
-          </Paper>
-          <div className={styles.containerLine}>
-            <hr className={`${styles.vertLine} ${styles.dashed}`} style={{borderColor:  "white"}}></hr>
-          </div>
-          <Paper className={styles.containerButton} elevation={0}>
-            <Link to='Aufnahmetest'>
-              <StepButton
-                size={returnStepbuttonSize()}
-                title="Aufnahmetest"
-                iconSrcActive={iconTestActive}
-                iconSrcInactive={iconTestInactive}
-                buttonType="done"
-              />
-            </Link>
-          </Paper>
+          )) }
         </Grid>
       </Grid>
     </div>
