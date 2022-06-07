@@ -14,6 +14,12 @@ import iconTestActive from "../../assets/btn_Test_active.png";
 import iconTestInactive from "../../assets/btn_Test_inactive.png";
 import iconEducationTypeActive from "../../assets/btn_EducationType_active.png";
 import iconEducationTypeInactive from "../../assets/btn_EducationType_inactive.png";
+import iconApprenticeshipActive from "../../assets/btn_Apprenticeship_active.png";
+import iconApprenticeshipInactive from "../../assets/btn_Apprenticeship_inactive.png";
+import iconInterviewActive from "../../assets/btn_Interview_active.png";
+import iconInterviewInactive from "../../assets/btn_Interview_inactive.png";
+import iconApplicationActive from "../../assets/btn_Application_active.png";
+import iconApplicationInactive from "../../assets/btn_Application_inactive.png";
 
 const listStepsLeft = [
   {
@@ -27,22 +33,31 @@ const listStepsLeft = [
   },
   {
     id: 1,
-    iconSrcActive: iconEducationTypeActive,
-    iconSrcInactive: iconEducationTypeInactive,
-    title: "Lehre oder Schule",
+    iconSrcActive: iconApprenticeshipActive,
+    iconSrcInactive: iconApprenticeshipInactive,
+    title: "Ausbildungsplatz",
     buttonType: "active",
-    screenLink: "LehreOderSchule",
+    screenLink: "Ausbildungsplatz",
     vlineBottom: "dashed",
   },
   {
     id: 2,
-    iconSrcActive: iconCVActive,
-    iconSrcInactive: iconCVInactive,
-    title: "Lerne Dich kennen",
+    iconSrcActive: iconApplicationActive,
+    iconSrcInactive: iconApplicationInactive,
+    title: "Bewerbung",
     buttonType: "inactive",
-    screenLink: "",
+    screenLink: "Bewerbung",
     vlineBottom: "none",
   },
+  // {
+  //   id: 3,
+  //   iconSrcActive: iconInterviewActive,
+  //   iconSrcInactive: iconInterviewInactive,
+  //   title: "Bewerbungsgespräch",
+  //   buttonType: "inactive",
+  //   screenLink: "Bewerbungsgespräch",
+  //   vlineBottom: "none",
+  // },
 ];
 
 const listStepsRight = [
@@ -50,19 +65,19 @@ const listStepsRight = [
     id: 0,
     iconSrcActive: iconProfFieldsActive,
     iconSrcInactive: iconProfFieldsInactive,
-    title: "Dein Berufsfeld",
+    title: "Berufsfelder",
     buttonType: "done",
     screenLink: "Berufsfeld",
     vlineBottom: "dashed",
   },
   {
     id: 1,
-    iconSrcActive: iconCVActive,
-    iconSrcInactive: iconCVInactive,
-    title: "Dein Ausbildungsplatz",
-    buttonType: "inactive",
-    screenLink: "",
-    vlineBottom: "none",
+    iconSrcActive: iconEducationTypeActive,
+    iconSrcInactive: iconEducationTypeInactive,
+    title: "Lehre oder Schule",
+    buttonType: "active",
+    screenLink: "LehreOderSchule",
+    vlineBottom: "dashed",
   },
   {
     id: 2,
@@ -94,8 +109,6 @@ const HomeScreen = () => {
       return 120;
     }
   }
-
-  // Returns style of line element based on whether the previous step button has been completed
 
   return (
     <div>
