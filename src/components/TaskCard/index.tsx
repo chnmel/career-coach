@@ -8,7 +8,7 @@ type TaskCardProps = {
 }
 
 const TaskCard = (props:any) => {
-    const [isDone, setIsDone] = useState(false); // ?
+    const [isDone, setIsDone] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
     return (

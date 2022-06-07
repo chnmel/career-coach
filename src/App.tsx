@@ -4,13 +4,10 @@ import './App.scss';
 
 import Header from './components/navigation/Header/Header';
 import Footer from './components/navigation/Footer/Footer';
-import HomeScreen from './screens/HomeScreen';
-import ProfessionalFields from './screens/ProfessionalFields';
+import HomeScreen from './screens/HomeScreen/HomeScreen';
+import ProfessionalFields from './screens/ProfessionalFields/ProfessionalFields';
 import EducationType from './screens/EducationType';
 import AdmissionExam from './screens/AdmissionExam';
-import Apprenticeship from './screens/Apprenticeship';
-import Application from './screens/Application';
-import Interview from './screens/Interview';
 
 function App() {
   return (
@@ -22,9 +19,6 @@ function App() {
           <Route path='Berufsfeld' element={<ProfessionalFields />} />
           <Route path='LehreOderSchule' element={<EducationType />} />
           <Route path='Aufnahmetest' element={<AdmissionExam />} />
-          <Route path='Ausbildungsplatz' element={<Apprenticeship />} />
-          <Route path='Bewerbung' element={<Application />} />
-          <Route path='Bewerbungsgespräch' element={<Interview />} />
         </Routes>
         <Footer />
       </BrowserRouter>
