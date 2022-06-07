@@ -21,13 +21,16 @@ const ProfessionalFields = () => {
 
     return <div className={styles.container}>
         <h1>Berufsfelder</h1>
-        <span>Hier findest du eine Übersicht über mögliche Berufsfelder.</span>
+        <p>Nachdem du dich und dein Interessen im vorherigen Schritt besser kennengelernt hast, erhältst du jetzt einen Überblick über mögliche Berufsfelder:</p>
         <div>
             <ul>
                 { fields.map(x => <li>{x}</li>) }
             </ul>
         </div>
-        <span>Im <a href="https://www.berufslexikon.at/bereiche-branchen/">AMS-Berufslexikon</a> kannst du Berufe in den jeweiligen Berufsfeldern durchstöbern</span>
+        <p>Im <a href="https://www.berufslexikon.at/bereiche-branchen/">AMS-Berufslexikon</a> bekommst du weitere <b>Informationen zu Berufen</b> aus den obenstehenden Bereichen. <br/>Beispielsweise weißt du dann, welche allgemeinen Anforderungen es gibt und welche Ausbildung du dafür benötigst.</p>
+        <p>Auch das <a href="https://www.bic.at/berufsgruppen.php">BIC</a> bietet einen Überblick über <b>Berufe</b> und <b>Ausbildungen</b>. Außerdem bekommst du dort z.B. durch Video-Interviews mit bereits Arbeitenden einen besseren Einblick in das Tätigkeitsfeld.</p>
+        <p>Suchst du speziell Informationen über Themenfelder in <b>Lehrberufen</b>, dann kann dir <a href="https://www.aubi-plus.at/berufe/themen/">AUBI-plus</a> mit Infos weiterhelfen!</p>
+        <p style={{textAlign: 'center', fontWeight: 'bold' }}><b>Viel Spaß beim Durchstöbern!</b></p>
     </div>
 }
 
