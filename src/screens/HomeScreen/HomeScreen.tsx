@@ -14,6 +14,10 @@ import iconTestActive from "../../assets/btn_Test_active.png";
 import iconTestInactive from "../../assets/btn_Test_inactive.png";
 import iconEducationTypeActive from "../../assets/btn_EducationType_active.png";
 import iconEducationTypeInactive from "../../assets/btn_EducationType_inactive.png";
+import iconInterviewActive from "../../assets/btn_Interview_active.png";
+import iconInterviewInactive from "../../assets/btn_Interview_inactive.png";
+import iconApplicationActive from "../../assets/btn_Application_active.png";
+import iconApplicationInactive from "../../assets/btn_Application_inactive.png";
 
 const listStepsLeft = [
   {
