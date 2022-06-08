@@ -12,9 +12,8 @@ import AdmissionExam from './screens/AdmissionExam';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
-      <Header />
         <Routes>
           <Route path='/' element={<HomeScreen />} />
           <Route path='Berufsfeld' element={<ProfessionalFields />} />
@@ -22,6 +21,7 @@ function App() {
           <Route path='Schnuppern' element={<TrialDay />} />
           <Route path='Aufnahmetest' element={<AdmissionExam />} />
         </Routes>
+        <Header />
         <Footer />
       </BrowserRouter>
     </div>
