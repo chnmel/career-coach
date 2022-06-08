@@ -6,6 +6,8 @@ import iconCVActive from "./btn_CV_active.png";
 import iconCVInactive from "./btn_CV_inactive.png";
 import iconProfFieldsActive from "./btn_ProfessionalFields_active.png";
 import iconProfFieldsInactive from "./btn_ProfessionalFields_inactive.png";
+import iconTrialDayActive from "./btn_TrialDay_active.png";
+import iconTrialDayInactive from "./btn_TrialDay_inactive.png";
 import iconTestActive from "./btn_Test_active.png";
 import iconTestInactive from "./btn_Test_inactive.png";
 import iconEducationTypeActive from "./btn_EducationType_active.png";
@@ -50,8 +52,8 @@ const HomeScreenSteps = [
     },  
     {
       id: 5,
-      iconSrcActive: iconCVActive,
-      iconSrcInactive: iconCVInactive,
+      iconSrcActive: iconTrialDayActive,
+      iconSrcInactive: iconTrialDayInactive,
       title: "Schnuppern",
       buttonType: "inactive",
       screenLink: "Schnuppern",
