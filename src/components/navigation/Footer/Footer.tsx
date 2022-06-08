@@ -8,22 +8,14 @@ const Footer = () => {
     console.log("Show settings screen"); //TODO: Add settings screen
   };
 
-  let navigateToHome = () => {
-    console.log("Navigate to home screen"); //TODO: Add home screen
-  };
-
   return (
     <div className={styles.container}>
       <div className={styles.btnRow}>
-        <div>
-          <button className={styles.btn}>
-            <img src={settings} alt="settings" className={styles.btnImg} onClick={showSettings} />
-          </button>
-        </div>
-        <Link  to='/'>
-          <button className={styles.btn}>
-            <img src={home} alt="home" className={styles.btnImg} onClick={navigateToHome} />
-          </button>
+        <Link  to='/' className={`${styles.btnLink} ${styles.btn}`}>
+          <img src={settings} alt="settings" className={styles.btnImg} />
+        </Link>
+        <Link  to='/' className={`${styles.btnLink} ${styles.btn}`}>
+          <img src={home} alt="home" className={styles.btnImg} />
         </Link>
       </div>
     </div>
