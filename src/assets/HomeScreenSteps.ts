@@ -105,7 +105,7 @@ const HomeScreenSteps = [
       iconSrcInactive: iconStartInactive,
       title: "Willkommen",
       buttonType: "done",
-      screenLink: "",
+      screenLink: "Willkommen",
       vlineBottom: "none",
     },
   ];
