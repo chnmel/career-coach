@@ -2,6 +2,8 @@ import React from "react";
 
 import iconStartActive from "./btn_Start_active.png";
 import iconStartInactive from "./btn_Start_inactive.png";
+import iconHeartActive from "./btn_Heart_active.png";
+import iconHeartInactive from "./btn_Heart_inactive.png";
 import iconCVActive from "./btn_CV_active.png";
 import iconCVInactive from "./btn_CV_inactive.png";
 import iconProfFieldsActive from "./btn_ProfessionalFields_active.png";
@@ -88,11 +90,11 @@ const HomeScreenSteps = [
     },
     {
       id: 1,
-      iconSrcActive: iconCVActive,
-      iconSrcInactive: iconCVInactive,
+      iconSrcActive: iconHeartActive,
+      iconSrcInactive: iconHeartInactive,
       title: "Lerne Dich kennen",
       buttonType: "done",
-      screenLink: "",
+      screenLink: "LerneDichKennen",
       vlineBottom: "none",
     },
     {

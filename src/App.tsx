@@ -5,6 +5,7 @@ import './App.scss';
 import Header from './components/navigation/Header/Header';
 import Footer from './components/navigation/Footer/Footer';
 import HomeScreen from './screens/HomeScreen/HomeScreen';
+import Introspection from './screens/Introspection';
 import ProfessionalFields from './screens/ProfessionalFields/ProfessionalFields';
 import EducationType from './screens/EducationType';
 import TrialDay from './screens/TrialDay';
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomeScreen />} />
+          <Route path='LerneDichKennen' element={<Introspection />} />
           <Route path='Berufsfeld' element={<ProfessionalFields />} />
           <Route path='LehreOderSchule' element={<EducationType />} />
           <Route path='Schnuppern' element={<TrialDay />} />
