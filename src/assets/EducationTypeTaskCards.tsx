@@ -7,8 +7,19 @@ const EducationTypeTaskCards = [
             Es gibt also <b>keinen falschen Weg</b>. 
             Jetzt musst du aber entscheiden, was dein <b>nächster Schritt</b> ist.
           </div>,
+          <div>Das AMS hat ein Video mit Informationen über die Möglichkeiten nach der Pflichtschule.</div>,
+          <a target='_blank' href='https://www.karrierevideos.at/video/1319-moeglichkeiten-nach-der-8-9-schulstufe/'>
+            AMS Karrierevideo
+          </a>,
           <div>Im AMS Berufslexikon kannst du sehen, für welche Berufe du Lehre, Matura oder andere Ausbildungen brauchst.<br/></div>,
           <a target='_blank' href='https://www.berufslexikon.at/#biz'>AMS Berufslexikon</a>,
+          <div>
+            Auf bic.at findest du Videos und Informationen zu verschiedensten Berufen. 
+            Alles sortiert nach der Ausbildung, die du dafür brauchst.
+          </div>,
+          <a target='_blank' href='https://www.karrierevideos.at/video/1319-moeglichkeiten-nach-der-8-9-schulstufe/'>
+            AMS Karrierevideo
+          </a>,
           <div><br/>Auf jobbs.at findest du einige Fragen, die dir bei der Entscheidung helfen können.</div>,
           <a target='_blank' href='https://www.jobbs.at/1-etappe/m%C3%B6glichkeiten/schule-oder-lehre/'>jobbs.at</a>,
           <div><br/>Bei Rat auf Draht gibt es auch einen kurzen Online-Test.</div>,
