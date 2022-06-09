@@ -24,16 +24,16 @@ const FirstDayTaskCards = [
         <div>
           Hier sind noch ein paar Webseiten mit <b>Tipps zur Lehre</b>:
         </div>,
-        <a href='https://www.jobs.ch/de/job-coach/10-tipps-anfang-deiner-lehre/'>
+        <a target='_blank' href='https://www.jobs.ch/de/job-coach/10-tipps-anfang-deiner-lehre/'>
           jobs.ch: 10 Tipps am Anfang deiner Lehre
         </a>,
-        <a href='https://www.gateway.one/de-CH/newsleser/6-knigge-tipps-f%C3%BCr-die-lehrzeit.html'>
+        <a target='_blank' href='https://www.gateway.one/de-CH/newsleser/6-knigge-tipps-f%C3%BCr-die-lehrzeit.html'>
           gateway.one: 6 Knigge-Tipps für die Lehrzeit
         </a>,
-        <a href='https://www.lehrlingsportal.at/tipps-infos/die-lehre/rechte-und-pflichten/'>
+        <a target='_blank' href='https://www.lehrlingsportal.at/tipps-infos/die-lehre/rechte-und-pflichten/'>
           lehrlingsportal.at: Rechte und Pflichten eines Lehrlings
         </a>,
-        <a href='https://www.arbeiterkammer.at/beratung/arbeitundrecht/Lehre/index.html'>
+        <a target='_blank' href='https://www.arbeiterkammer.at/beratung/arbeitundrecht/Lehre/index.html'>
           arbeiterkammer.at: Lehre
         </a>,
       ]
@@ -50,13 +50,13 @@ const FirstDayTaskCards = [
         <div>
           Hier sind noch ein paar Webseiten mit <b>Tipps für die Oberstufe</b>:
         </div>,
-        <a href='https://de.wikihow.com/In-der-Oberstufe-nur-Einsen-bekommen'>
+        <a target='_blank' href='https://de.wikihow.com/In-der-Oberstufe-nur-Einsen-bekommen'>
           wikihow.com: In der Oberstufe nur Einsen bekommen
         </a>,
-        <a href='https://die-lernlotsen.com/vorbereitung-auf-die-oberstufe-uebergang/'>
+        <a target='_blank' href='https://die-lernlotsen.com/vorbereitung-auf-die-oberstufe-uebergang/'>
           die-lernlotsen.com: Auf die Oberstufe vorbereiten
         </a>,
-        <a href='https://www.youtube.com/watch?v=TKg72Zhetts&list=PL-u60Hj1CiLV_wzT9mwij-AZdBuxDpdej/'>
+        <a target='_blank' href='https://www.youtube.com/watch?v=TKg72Zhetts&list=PL-u60Hj1CiLV_wzT9mwij-AZdBuxDpdej/'>
           YouTube: Back to School - Start in die Oberstufe
         </a>,
       ]

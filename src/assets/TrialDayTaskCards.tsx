@@ -40,13 +40,13 @@ const TrialDayTaskCards = [
           Auf ooe-schnuppert.at kannst du Schnupperlehre in deiner Umgebung finden. 
           schuldatenbank.at zeigt dir, welche Schulen es gibt.
         </div>,
-        <a href='https://www.ooe-schnuppert.at/schnupperplatz-finden/'>ooe-schnuppert.at</a>,
-        <a href='https://www.schuldatenbank.at/schoolfinder/'>schuldatenbank.at</a>,
+        <a target='_blank' href='https://www.ooe-schnuppert.at/schnupperplatz-finden/'>ooe-schnuppert.at</a>,
+        <a target='_blank' href='https://www.schuldatenbank.at/schoolfinder/'>schuldatenbank.at</a>,
         <div>
           Wenn die Stelle kein Online-Formular hat, kannst du mit einer formellen E-Mail-Nachricht oder 
           telefonisch anfragen. Tipps für formelle E-Mails findest du hier:
         </div>,
-        <a href='https://de.wikihow.com/Eine-formelle-Email-schreiben'>wikihow.com formelle E-Mail schreiben</a>,
+        <a target='_blank' href='https://de.wikihow.com/Eine-formelle-Email-schreiben'>wikihow.com formelle E-Mail schreiben</a>,
       ]
     },
     {
@@ -63,7 +63,7 @@ const TrialDayTaskCards = [
           Die Arbeiterkammer hat eine <b>super Vorlage</b> für die Vorbereitung auf den Schnuppertermin. 
           Drucke dir einfach die Seite 43 oder 44 aus.
         </div>,
-        <a href='https://ooe.arbeiterkammer.at/service/broschuerenundratgeber/bildung/BJK_2020_MyFuture_2_Schulen_und_Berufe.pdf#page=18'>
+        <a target='_blank' href='https://ooe.arbeiterkammer.at/service/broschuerenundratgeber/bildung/BJK_2020_MyFuture_2_Schulen_und_Berufe.pdf#page=18'>
           Arbeiterkammer Vorlage
         </a>,
       ]
@@ -95,7 +95,7 @@ const TrialDayTaskCards = [
           Schreibe dir deshalb gleich nach dem Termin auf, was <b>gut</b> war, was <b>schlecht</b> war und 
           wie du dich dabei <b>gefühlt</b> hast. Die Arbeiterkammer bietet dir dafür wieder eine <b>Vorlage</b>:
         </div>,
-        <a href='https://ooe.arbeiterkammer.at/service/broschuerenundratgeber/bildung/BJK_2020_MyFuture_2_Schulen_und_Berufe.pdf#page=20'>
+        <a target='_blank' href='https://ooe.arbeiterkammer.at/service/broschuerenundratgeber/bildung/BJK_2020_MyFuture_2_Schulen_und_Berufe.pdf#page=20'>
           Arbeiterkammer Vorlage
         </a>,
         <div>

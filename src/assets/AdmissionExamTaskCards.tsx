@@ -23,10 +23,10 @@ const AdmissionExamTaskCards = [
         <div>So beantwortest du ähnliche Fragen richtig, wenns dann darauf ankommt.<br/><br/></div>,
         <div>Wir haben für dich einige Webseiten gesammelt, wo du <b>gratis Übungstests</b> oder Beispielfragen findest.</div>,
         <div>Du kannst auch im Internet nach 'Gehirntraining' suchen, da findest du viele lustige Aufgaben, die dir für den Test helfen können.</div>,
-        <a href='https://www.jobbs.at/6-etappe/aufnahmetests/'>jobbs.at</a>,
-        <a href='https://www.einstellungstest-fragen.de/#gratis-training'>einstellungstest-fragen.de</a>,
-        <a href='https://www.ausbildungspark.com/einstellungstest/'>ausbildungspark.com</a>,
-        <a href='https://www.jobbs.at/6-etappe/aufnahmetests/'>karrierebibel.de</a>,
+        <a target='_blank' href='https://www.jobbs.at/6-etappe/aufnahmetests/'>jobbs.at</a>,
+        <a target='_blank' href='https://www.einstellungstest-fragen.de/#gratis-training'>einstellungstest-fragen.de</a>,
+        <a target='_blank' href='https://www.ausbildungspark.com/einstellungstest/'>ausbildungspark.com</a>,
+        <a target='_blank' href='https://www.jobbs.at/6-etappe/aufnahmetests/'>karrierebibel.de</a>,
       ]
     },
     {
@@ -43,9 +43,9 @@ const AdmissionExamTaskCards = [
           Schreib dir danach auf wie viele du <b>geschafft</b> hast und welche du <b>übersprungen</b> hast. Wiederhole das ganze jeden Tag. 
           Du wirst staunen, wie schnell du dich verbesserst.
         </div>,
-        <a href='https://www.jobbs.at/6-etappe/aufnahmetests/'>jobbs.at</a>,
-        <a href='https://www.einstellungstest-fragen.de/#gratis-training'>einstellungstest-fragen.de</a>,
-        <a href='https://www.ausbildungspark.com/einstellungstest/'>ausbildungspark.com</a>,
+        <a target='_blank' href='https://www.jobbs.at/6-etappe/aufnahmetests/'>jobbs.at</a>,
+        <a target='_blank' href='https://www.einstellungstest-fragen.de/#gratis-training'>einstellungstest-fragen.de</a>,
+        <a target='_blank' href='https://www.ausbildungspark.com/einstellungstest/'>ausbildungspark.com</a>,
       ]
     },
     {
@@ -60,9 +60,9 @@ const AdmissionExamTaskCards = [
         <div>Wenn du den Test nicht alleine schreibst, konzentriere dich ganz auf <b>deinen Test</b> und ignoriere was die Anderen machen.</div>,
         <div>Weiter unten findest du noch Webseiten mit mehr Informationen zu Einstellungstest.</div>,
         <div style={{textAlign: "center"}}><b>Viel Spaß und Erfolg!</b></div>,
-        <a href='https://www.jobbs.at/6-etappe/aufnahmetests/'>jobbs.at</a>,
-        <a href='https://www.einstellungstest-fragen.de/einstellungstest-die-testsituation/'>einstellungstest-fragen.de</a>,
-        <a href='https://karrierebibel.de/auswahltests/'>karrierebibel.de</a>,
+        <a target='_blank' href='https://www.jobbs.at/6-etappe/aufnahmetests/'>jobbs.at</a>,
+        <a target='_blank' href='https://www.einstellungstest-fragen.de/einstellungstest-die-testsituation/'>einstellungstest-fragen.de</a>,
+        <a target='_blank' href='https://karrierebibel.de/auswahltests/'>karrierebibel.de</a>,
       ]
     },
   ]

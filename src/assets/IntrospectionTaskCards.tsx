@@ -29,7 +29,7 @@ const IntrospectionTaskCards = [
         <div><br/>
           Das Video im Link zeigt dir ein paar Aufgaben, wie du deinen Antrieb findest.
         </div>,
-        <a href='https://www.youtube.com/watch?v=Fez7ikNh0BI'>YouTube: Finde dein WARUM</a>,
+        <a target='_blank' href='https://www.youtube.com/watch?v=Fez7ikNh0BI'>YouTube: Finde dein WARUM</a>,
       ]
     },
     {
@@ -49,7 +49,7 @@ const IntrospectionTaskCards = [
         <div>
           Schau dir das Video an, um mehr Infos zu bekommen und probiere die Fragen für dich zu beantworten.
         </div>,
-        <a href='https://www.youtube.com/watch?v=xGmWgQA2w-s&t=191s'>YouTube: IKIGAI</a>,
+        <a target='_blank' href='https://www.youtube.com/watch?v=xGmWgQA2w-s&t=191s'>YouTube: IKIGAI</a>,
       ]
     },
     {
@@ -67,12 +67,12 @@ const IntrospectionTaskCards = [
           Und <b>keine Panik</b>, falls du beim ersten Mal nicht die perfekte Entscheidung triffst oder deine Wünsche sich ändern, 
           stehen dir nach der Lehre oder Oberstufe wieder <b>alle Türen offen</b>.
         </div>,
-        <a href='https://de.wikihow.com/Sich-selbst-kennenlernen'>wikihow.com: Sich selbst kennenlernen</a>,
-        <a href='https://karrierebibel.de/teste-dich/'>karrierebibel.de: Selbsttests zu Persönlichkeit, Job und Intelligenz</a>,
-        <a href='https://cf-images.yousty.ch/pages%2F463%2Fdocuments%2F83fd257c5fef75080083d7b3d2da2475%2FZusatzdokumente_Interessen_und_Starken__interaktiv.pdf'>
+        <a target='_blank' href='https://de.wikihow.com/Sich-selbst-kennenlernen'>wikihow.com: Sich selbst kennenlernen</a>,
+        <a target='_blank' href='https://karrierebibel.de/teste-dich/'>karrierebibel.de: Selbsttests zu Persönlichkeit, Job und Intelligenz</a>,
+        <a target='_blank' href='https://cf-images.yousty.ch/pages%2F463%2Fdocuments%2F83fd257c5fef75080083d7b3d2da2475%2FZusatzdokumente_Interessen_und_Starken__interaktiv.pdf'>
           yousty.ch: Arbeitsblatt Interessen und Stärken
         </a>,
-        <a href='https://www.karriere.at/c/a/sinnsuche'>karriere.at: Sinnsuche</a>,
+        <a target='_blank' href='https://www.karriere.at/c/a/sinnsuche'>karriere.at: Sinnsuche</a>,
       ]
     },
     ];

@@ -40,7 +40,7 @@ const WelcomeTaskCards = [
           Um zu sehen, wie gut du schon über das Thema <b>Berufsorientierung und Bewerbung</b> informiert bist, 
           mach doch dieses <b>kurze Quiz</b> von <b>Rat auf Draht</b>, bevor du zur nächsten Station gehst.
         </div>,
-        <a href='https://www.rataufdraht.at/themenubersicht/tests-quiz/bist-du-fit-in-sachen-bewerbung'>
+        <a target='_blank' href='https://www.rataufdraht.at/themenubersicht/tests-quiz/bist-du-fit-in-sachen-bewerbung'>
           rataufdraht.at: Bist du fit in Sachen Bewerbung?
         </a>,
       ]
