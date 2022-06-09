@@ -10,6 +10,7 @@ import ProfessionalFields from './screens/ProfessionalFields/ProfessionalFields'
 import EducationType from './screens/EducationType';
 import TrialDay from './screens/TrialDay';
 import AdmissionExam from './screens/AdmissionExam';
+import FirstDay from './screens/FirstDay';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='LehreOderSchule' element={<EducationType />} />
           <Route path='Schnuppern' element={<TrialDay />} />
           <Route path='Aufnahmetest' element={<AdmissionExam />} />
+          <Route path='DeinErsterTag' element={<FirstDay />} />
         </Routes>
         <Header />
         <Footer />

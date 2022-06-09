@@ -14,15 +14,17 @@ import iconTestActive from "./btn_Test_active.png";
 import iconTestInactive from "./btn_Test_inactive.png";
 import iconEducationTypeActive from "./btn_EducationType_active.png";
 import iconEducationTypeInactive from "./btn_EducationType_inactive.png";
+import iconRocketActive from "./btn_Rocket_active.png";
+import iconRocketInactive from "./btn_Rocket_inactive.png";
 
 const HomeScreenSteps = [
     {
       id: 9,
-      iconSrcActive: iconCVActive,
-      iconSrcInactive: iconCVInactive,
+      iconSrcActive: iconRocketActive,
+      iconSrcInactive: iconRocketInactive,
       title: "Dein erster Tag",
       buttonType: "inactive",
-      screenLink: "",
+      screenLink: "DeinErsterTag",
       vlineBottom: "none",
     },
     {
