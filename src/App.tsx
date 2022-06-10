@@ -22,7 +22,7 @@ function App() {
           <Route path='LehreOderSchule' element={<EducationType />} />
           <Route path='Aufnahmetest' element={<AdmissionExam />} />
           <Route path='Bewerbung' element={<Application />} />
-          <Route path='Bewerbungsgespräch' element={<Interview />} />
+          <Route path='Bewerbungsgespraech' element={<Interview />} />
         </Routes>
         <Footer />
       </BrowserRouter>
