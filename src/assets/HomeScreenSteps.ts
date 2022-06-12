@@ -16,6 +16,10 @@ import iconEducationTypeActive from "./btn_EducationType_active.png";
 import iconEducationTypeInactive from "./btn_EducationType_inactive.png";
 import iconRocketActive from "./btn_Rocket_active.png";
 import iconRocketInactive from "./btn_Rocket_inactive.png";
+import iconInterviewActive from "./btn_Interview_active.png";
+import iconInterviewInactive from "./btn_Interview_inactive.png";
+import iconApplicationActive from "./btn_Application_active.png";
+import iconApplicationInactive from "./btn_Application_inactive.png";
 
 const HomeScreenSteps = [
     {
@@ -29,11 +33,11 @@ const HomeScreenSteps = [
     },
     {
       id: 8,
-      iconSrcActive: iconCVActive,
-      iconSrcInactive: iconCVInactive,
+      iconSrcActive: iconInterviewActive,
+      iconSrcInactive: iconInterviewInactive,
       title: "Bewerbungsgespräch",
       buttonType: "inactive",
-      screenLink: "",
+      screenLink: "Bewerbungsgespraech",
       vlineBottom: "none",
     },
     {
@@ -47,11 +51,11 @@ const HomeScreenSteps = [
     },
     {
       id: 6,
-      iconSrcActive: iconCVActive,
-      iconSrcInactive: iconCVInactive,
+      iconSrcActive: iconApplicationActive,
+      iconSrcInactive: iconApplicationInactive,
       title: "Bewerbung",
       buttonType: "inactive",
-      screenLink: "",
+      screenLink: "Bewerbung",
       vlineBottom: "none",
     },  
     {
