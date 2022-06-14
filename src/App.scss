@@ -13,8 +13,13 @@ $logo-font-size: 2rem;
 
 body {
   // background-color: $white;
+  flex: 1;
   font-family: $text-font;
   position: relative; 
   min-height: 100%;
-  padding: 6rem 2rem 6rem 2rem;
+  padding: 6rem 1rem 6rem 1rem;
+  margin: 0 auto;
+  @media all and (min-width: 1025px) {
+    width: 60%;
+  }
 }

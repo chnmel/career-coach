@@ -1,8 +1,11 @@
+@import "../../App.scss";
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: .2rem;
+    padding: .5rem;
+    padding-bottom: 1rem;
 }
 
 .outerRing {
@@ -24,4 +27,15 @@
 
 .title {
     margin: .2rem;
+    white-space: nowrap;
+}
+
+a.linkInactive:any-link {
+    text-decoration: none;
+    color: $lightgrey;
+}
+
+a.linkActive:any-link {
+    text-decoration: none;
+    color: $darkgrey;
 }

@@ -11,6 +11,13 @@
     margin: .2em 0;
     box-shadow: .1rem .1rem .2rem 0 rgba(0, 0, 0, 0.2);
     padding: 0em 1em 1em 1em;
+<<<<<<< HEAD
+=======
+    @media all and (min-width: 1025px) {
+        margin: .8em auto;
+        width: 50%;
+    }
+>>>>>>> melanie
 }
 
 .title {

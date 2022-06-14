@@ -1,69 +1,8 @@
 @import "../../App.scss";
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0;
-}
-
-.columnLeft, .columnRight {
-    display: block;
-}
-
-.horizLine {
-    border-top-width: medium;
-    border-top-style: solid;
-    border-bottom-color: none;
-    border-top-color: black;
-}
-
-.vertLine {
-    border-top-width: medium;
-    border-top-style: solid;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-    transform: rotate(90deg);
-    @media all and (max-width: 767px) {
-        width: 1.5rem;
-    }
-    @media all and (min-width: 768px) and (max-width: 1024px) {
-        width: 2rem;
-    }
-    @media all and (min-width: 1025px) {
-        width: 2.5rem;
-    }
-}
-
-.dashed {
-    border-top-style: dashed;
-}
-
-.containerButton {
+.container {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10% 10%;
-}
-
-.containerLine {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.containerhorizLine {
-    @media all and (max-width: 767px) {
-        margin-top: 40px;
-        margin-bottom: 90px;
-    }
-    @media all and (min-width: 768px) and (max-width: 1024px) {
-        margin-top: 80px;
-        margin-bottom: 180px;
-    }
-    @media all and (min-width: 1025px) {
-        margin-top: 130px;
-        margin-bottom: 280px;
-    }
-
+    padding-bottom: 5em;
 }

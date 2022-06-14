@@ -1,0 +1,29 @@
+.hiddenLine {
+    border-width: 0;
+}
+
+.containerLine {
+    flex: 1;
+    display: flex;
+    margin-bottom: 0;
+    border-width: .3rem;
+    border-color: black;
+    border-style: dotted;
+    border-bottom-style: none;
+}
+
+.containerLineLeft {
+    border-top-left-radius: 1rem;
+    border-right-style: none;
+}
+
+.containerLineRight {
+    border-top-right-radius: 1rem;
+    border-left-style: none;
+}
+
+.containerRow {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
